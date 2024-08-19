@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Example Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .media {
+            margin: 20px auto;
+        }
+        video, audio {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Multimedia Example Page</h1>
+    </header>
+
+    <div class="container">
+        <section class="media">
+            <h2>Audio Example</h2>
+            <audio controls>
+  			<source src="horse.ogg" type="audio/ogg">
+  			<source src="horse.mp3" type="audio/mpeg">
+		</audio>
+        </section>
+
+        <section class="media">
+            <h2>Video Example</h2>
+            <video controls>
+                <source src="example.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <section>
+            <h2>Table Example</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>25</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Charlie</td>
+                        <td>35</td>
+                        <td>Chicago</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Links Example</h2>
+            <p>Check out these links:</p>
+            <a href="https://www.example.com" target="_blank">Example Website</a><br>
+            <a href="https://www.github.com" target="_blank">GitHub</a><br>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Virajeshnithin V. All rights reserved.</p>
+    </footer>
+</body>
+</html>
